@@ -13,6 +13,10 @@ def mol_func(n1, n2) :
 def div_func(n1, n2) :
     return n1 / n2
 
+def pow_func(n1, n2) :
+    return n1 ** n2
+
+
 
 
 ## 전역 변수부(=인스턴스 변수)
@@ -32,3 +36,6 @@ print(num1, '*', num2, '=', res)
 
 res = div_func(num1, num2)
 print(num1, '/', num2, '=', res)
+
+res = pow_func(num1, num2)
+print(num1, '**', num2, '=', res)
